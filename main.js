@@ -174,8 +174,57 @@ console.log("La suma de los números pares del 1 al 100 es:", sumaPares);
 
 /* 11- */
 
+/* const Persona = {
+    nombre: "Jonathan",
+    edad: 39,
+    ciudad: "Argentina",
+    
+    presentarse: function() {
+      console.log(`Hola, mi nombre es ${this.nombre}, tengo ${this.edad} años y vivo en ${this.ciudad}.`);
+    }
+  };
+  
+  Persona.presentarse(); */
 
+/* --------------------------------------------- */
 
+/* 12- */
+
+/* const personas = [
+    { nombre: "Jonathan", edad: 39, ocupacion: "Full Stack Engineer" },
+    { nombre: "Nadia", edad: 37, ocupacion: "Docente" },
+    { nombre: "Mia", edad: 24, ocupacion: "Contadora" },
+    { nombre: "Maya", edad: 25, ocupacion: "Abogada" }
+];
+
+for (let i = 0; i < personas.length; i++) {
+    const persona = personas[i];
+    console.log(`Nombre: ${persona.nombre}, Edad: ${persona.edad}, Ocupación: ${persona.ocupacion}`);
+} */
+
+/* --------------------------------------------- */
+
+/* 13- */
+
+/* const numeros = [5, 10, 15, 20, 25];
+
+function calcularPromedio(numeros) {
+    
+    let suma = 0;
+    for (let i = 0; i < numeros.length; i++) {
+        suma += numeros[i];
+    }
+
+    const promedio = suma / numeros.length;
+    
+    return promedio;
+}
+
+const promedio = calcularPromedio(numeros);
+
+console.log(`El promedio es: ${promedio}`);
+
+ */
 
 
 
